@@ -1,0 +1,48 @@
+Pertanyaan:
+Apa hubungan antara tingkat kepuasan pelanggan dengan penjualan produk?
+Mengapa terjadi penurunan penjualan pada bulan tertentu?
+Kapan waktu paling efektif untuk meluncurkan kampanye pemasaran?
+Dimana lokasi geografis dengan tingkat penggunaan produk tertinggi?
+
+customers
+0   customer_id               99441 non-null  object
+ 1   customer_unique_id        99441 non-null  object (harusnya int64)
+
+# tipe data customer_id dan customer_unique_id harus diganti ke int64
+# tidak ada data yang kosong
+# tidak ada data duplikat
+# ada keanehan pada nilai min customer_zip_code
+
+# tipe data sudah sesuai
+# tidak ada data kosong
+# terdapat data duplikat sebanyak 261831
+# tidak ada keanehan pada nilai pada data
+
+# tipe data kolom order_id, product_id, sellers_id harus diganti ke int64 dan kolom shipping_limit_date harus diganti ke date
+# tidak ada data kosong
+# tidak ada data duplikat
+# tidak ada keanehan pada nilai data
+
+# order_id harus diganti ke int64
+# tidak ada data kosong
+# tidak ada data duplikat
+# tidak ada keanehan pada nilai data
+
+# review_id, orderd_id harus ke int64, dan review_creation_date dan review_answer timestamp harus ke data
+# terdapat data kosong pada kolom review comment_title dan review_comment_message
+# tidak ada data duplikat
+# tidak ada keanehan pada nilai data
+
+# order_id, customer_id harus int64, dan 5 kolom terakhir harus ke date
+# terdapat data kosong pada order_approved_at, order_delivered_carrier_date, order_delivered_customer_date,     
+# tidak ada data duplikat
+
+# data aman
+
+# product_id ke int64
+# ada data kosong
+
+# seller id harus ke int64
+
+
+
